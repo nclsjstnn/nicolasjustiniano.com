@@ -1,0 +1,24 @@
+# Site settings
+title: "NICOLAS JUSTINIANO"
+#logo: logo.png # image from https://www.flickr.com/photos/lwr/5496279831/in/set-72157594159055823
+email: hello@nicolasjustiniano.com
+description: |
+  I'm an Art director and Game Designer from Santiago de Chile. 
+  I enjoy designing new methods to maximize art and creativity inputs into R&D processes, 
+  to output outstanding experiencies involving games, marketing and media.
+url: "http://nicolasjustiniano.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: jstnno
+github_username: jstnn
+tumblr_username: jstnn
+
+permalink: pretty
+paginate: 6
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate

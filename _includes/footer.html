@@ -1,0 +1,31 @@
+<footer role="contentinfo" class='post-footer'>
+    <div class="inner">
+        <div class="vcard">
+            <!--
+          <a href="{{ site.baseurl }}/feed.xml" id="btn_feed" class="btn" title="Feed" target="_blank">
+                <span aria-hidden="true" data-icon=")"></span>
+                <strong>Feed</strong>
+            </a>
+-->
+            {% if site.logo %}
+            <a href="{{ site.baseurl }}" class="photo circle">
+              <span style="background-image: url('{{ site.baseurl }}/assets/images/{{ site.logo }}');">
+                <img src="{{ site.baseurl }}/assets/images/{{ site.logo }}" alt="{{ site.title }}"/>
+              </span>
+            </a>
+            {% endif %}
+
+            <div class="details">
+                <h4><a href="{{ site.url }}" class="url n">NicolasJustiniano.com</a></h4>
+                <span>*<a href="https://github.com/{{site.github_username}}" style="_blank">Github</a></span><br>
+                <span>*<a href="https://twitter.com/{{site.twitter_username}}" style="_blank">Twitter</a></span><br>
+                <span>*<a href="http://{{site.tumblr_username}}.tumblr.com/" style="_blank">Tumblr</a></span>
+            </div>
+        </div>
+        <div id="user_bio">
+            <div class="inner">
+                {{ site.description }}
+            </div>
+        </div>
+    </div>
+</footer>
