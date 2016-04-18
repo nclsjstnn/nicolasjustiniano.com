@@ -10,5 +10,5 @@ Comisioned by [Mego](http://mego.cl)\\
 [iOS](https://itunes.apple.com/cl/app/juego-pdi/id663597986?mt=8) | [Android](https://play.google.com/store/apps/details?id=com.megoforce.pdi&hl=es_419)\\
 \\
 ![]({{ site.baseurl }}/content/images/portfolio/elcasodelaura.png)
-![]({{ site.baseurl }}/content/images/portfolio/elcasodelaura2.png)
+![]({{ site.baseurl }}/content/images/portfolio/elcasodelaura2.jpg)
 
