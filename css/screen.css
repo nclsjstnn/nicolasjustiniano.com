@@ -1016,23 +1016,27 @@ body>a.btn.nav {
     position: relative;
     font-size: 16px;
     margin: 0 10px 70px 10px;
-    padding: 15px 28px
+    padding: 15px 28px;
+
 }
 body>a.btn.nav span {
     position: absolute;
     top: 11px;
     font-size: 25px;
     margin-top: 1px
+
 }
 body>a.btn.nav.next {
-    padding-right: 46px
+    padding-right: 46px;
+    text-decoration:none !important;
 }
 body>a.btn.nav.next span {
     right: 14px;
     margin-top: 1px
 }
 body>a.btn.nav.prev {
-    padding-left: 46px
+    padding-left: 46px;
+    text-decoration:none !important;
 }
 body>a.btn.nav.prev span {
     left: 14px;
@@ -1085,7 +1089,7 @@ body>footer div.vcard, .post-footer div.vcard {
     *vertical-align: auto;
     zoom: 1;
     *display: inline;
-    width: 50%;
+    width: 20%;
     min-height: 100px
 }
 body>footer div.vcard span.given-name, body>footer div.vcard span.family-name, .post-footer div.vcard span.given-name, .post-footer div.vcard span.family-name {
@@ -1160,7 +1164,7 @@ body>footer #user_bio, .post-footer #user_bio {
     *vertical-align: auto;
     zoom: 1;
     *display: inline;
-    width: 47%
+    width: 77%
 }
 body>footer #user_bio .inner, .post-footer #user_bio .inner {
     padding-left: 20px;
